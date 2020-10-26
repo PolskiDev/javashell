@@ -7,4 +7,7 @@ JavaShell.appleRuntime(YOUR COMMAND); - APPLE MAC OS X
 JavaShell.gnuRuntime(YOUR COMMAND); - GNU/LINUX  
 
 Your command should be passed as a string, for example:  
-JavaShell.winRuntime("notepad.exe");  
+**JavaShell.winRuntime("notepad.exe");**  
+
+It is important to add a java native module:  
+**import java.io.IOException;**  
