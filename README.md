@@ -9,5 +9,5 @@ JavaShell.gnuRuntime(YOUR COMMAND); - GNU/LINUX
 Your command should be passed as a string, for example:  
 **JavaShell.winRuntime("notepad.exe");**  
 
-It is important to add a java native module:  
+It is important to import a java native module:  
 **import java.io.IOException;**  
