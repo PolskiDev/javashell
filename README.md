@@ -6,5 +6,5 @@ JavaShell.winRuntime(YOUR COMMAND); - MS WINDOWS
 JavaShell.appleRuntime(YOUR COMMAND); - APPLE MAC OS X  
 JavaShell.gnuRuntime(YOUR COMMAND); - GNU/LINUX  
 
-Your command should be passed by a string, for example:  
+Your command should be passed as a string, for example:  
 JavaShell.winRuntime("notepad.exe");  
